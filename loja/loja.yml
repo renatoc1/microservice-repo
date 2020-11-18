@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    password: password
+    username: root
+    url: jdbc:mysql://localhost:3306/loja?useTimezone=true&serverTimezone=UTC
